@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites - Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: whitesmoke;
+      color: black;
+    }
+
+    
+    header {
+      background: blue;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    
+    .menu {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+    }
+    .menu h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #444;
+    }
+
+    .menu-category {
+      background: whitesmoke;
+      padding: 15px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    .menu-category h3 {
+      color: #d2691e;
+    }
+    .menu-category:hover{
+      background-color: blue;
+      color: WHITE;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid whitesmoke;
+      padding: 10px 0;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+    .menu-item img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-right: 15px;
+    }
+    .menu-item p {
+      margin: 3px 0;
+    }
+    .menu-item strong {
+      font-size: 1.1em;
+    }
+
+    
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>Suriya's Hotel</h1>
+    <nav>
+      <a href="http://127.0.0.1:5500/Home.html">HOME</a>
+      <a href="http://127.0.0.1:5500/aboutus.html">ABOUT US</a>
+      <a href="http://127.0.0.1:5500/Feedback.html">Feedback</a>
+    </nav>
+  </header>
+
+  
+  <section class="menu">
+    <h2>Our Menu</h2>
+
+    
+    <div class="menu-category">
+      <h3>🍤 Starters</h3>
+
+      <div class="menu-item">
+        <img src="/chicken 65.jpg" alt="Chicken 65">
+        <div>
+          <p><strong>Chicken 65</strong> - ₹120</p>
+          <p>Spicy fried chicken with South Indian flavors.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="/paneer-tikka.jpg" alt="Paneer Tikka">
+        <div>
+          <p><strong>Paneer Tikka</strong> - ₹150</p>
+          <p>Grilled cottage cheese marinated in special spices.</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="menu-category">
+      <h3>🍝 Main Course</h3>
+
+      <div class="menu-item">
+        <img src="/butter chicken.jpg" alt="Butter Chicken">
+        <div>
+          <p><strong>Butter Chicken</strong> - ₹250</p>
+          <p>Creamy tomato gravy with tender chicken pieces.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="/Veg-Biryani.jpg" alt="Veg Biryani">
+        <div>
+          <p><strong>Veg Biryani</strong> - ₹200</p>
+          <p>Fragrant rice cooked with vegetables and spices.</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="menu-category">
+      <h3>🍰 Desserts</h3>
+
+      <div class="menu-item">
+        <img src="/Gulab-Jamun.jpg" alt="Gulab Jamun">
+        <div>
+          <p><strong>Gulab Jamun</strong> - ₹80</p>
+          <p>Soft and juicy milk-based sweet dumplings.</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="/ice cream.jpg" alt="Ice Cream Sundae">
+        <div>
+          <p><strong>Ice Cream Sundae</strong> - ₹120</p>
+          <p>Vanilla ice cream topped with chocolate syrup and nuts.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>📍 123 Food Street, Flavor Town</p>
+    <p>📞 Call: +91 98765 43210</p>
+    <p>Follow us on: Facebook | Instagram | Twitter</p>
+  </footer>
+
+
+</body>
+</html>
+
+
