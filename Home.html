@@ -12,7 +12,7 @@
     }
 
     header {
-      background: rgba(7, 7, 106, 0.553);
+      background: blue;
       color: white;
       padding: 15px;
       text-align: center;
@@ -52,7 +52,7 @@
       margin: 5px;
     }
     footer {
-      background: #333;
+      background: black;
       color: white;
       text-align: center;
       padding: 10px;
@@ -68,8 +68,12 @@ footer a:hover {
   text-decoration: underline;
 
 }
-
-
+.dish {
+  
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
   </style>
 </head>
 <body>
@@ -78,9 +82,9 @@ footer a:hover {
   <header>
     <h1>☀️ Suriya's Hotel ☀️</h1>
     <nav>
-      <a href="http://127.0.0.1:5500/Home.html">Home</a>
-      <a href="http://127.0.0.1:5500/menu.html">Menu</a>
-      <a href="http://127.0.0.1:5500/aboutus.html">About us</a>
+      <a href="Home.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="aboutus.html">About us</a>
      
     </nav>
   </header>
@@ -92,37 +96,43 @@ footer a:hover {
   </section>
 
   
-  <section class="about us">
+  <section class="aboutus">
+    <center>
     <h2>About Us</h2>
     <p>Suriya's Hotel offers a variety of dishes prepared with fresh ingredients. We ensure every guest enjoys a delightful dining experience.</p>
+    </center>
   </section>
 
  
  <section class="popular">
+  <center>
   <h2>Our Popular Dishes</h2>
 
-  
-    <img src="/gobi manchurian.jpg" alt="Gobi Manchurian">
-    <p><strong>Gobi Manchurian</strong></p>
- 
+    <div class="dish"> 
+     <img src="gobi manchurian.jpg" alt="Gobi Manchurian">
+     <p><strong>Gobi Manchurian</strong></p>
+    </div>
 
- 
-    <img src="/honey chicken.jpeg" alt="Honey Chicken">
-    <p><strong>Honey Chicken</strong></p>
+    <div class="dish">
+     <img src="honey chicken.jpeg" alt="Honey Chicken">
+     <p><strong>Honey Chicken</strong></p>
+    </div>
 
 
-
-    <img src="/Mutton keema.jpg" alt="Mutton Keema">
-    <p><strong>Mutton Keema</strong></p>
-
-</section>
+    <div class="dish">
+     <img src="Mutton keema.jpg" alt="Mutton Keema">
+     <p><strong>Mutton Keema</strong></p>
+    </div>
+  </center>
+ </section>
 
 
   <footer>
     <p>📍 Address: 123 Flavor Street, Food City</p>
     <p>📞 Call: +91 98765 43210</p>
-    <a href="http://127.0.0.1:5500/Feedback.html">📃🖊️Feedback</a>
+    <a href="Feedback.html">📃🖊️Feedback</a>
   </footer>
 
 </body>
 </html>
+
